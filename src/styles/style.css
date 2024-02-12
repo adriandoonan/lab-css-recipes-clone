@@ -32,16 +32,27 @@ html {
   .index-cards {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
     gap: 1rem;
+    margin: 0 auto;
   }
 
   .index-card {
     max-width: 250px;
+    text-align: center;
     border: 1px gray solid;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     box-shadow: 10px 5px 5px #d4d4d4;
+    text-decoration: none;
+    color: white;
+    transition: box-shadow 0.5s ease;
+  }
+
+  .index-card:hover {
+    box-shadow: 2px 2px 2px #7e7e7e;
   }
 
   .index-image {
@@ -51,8 +62,6 @@ html {
     background-repeat: no-repeat;
     text-align: center;
     font-size: 4rem;
-    color: white;
-    text-decoration: none;
     padding-top: 25%;
     padding-bottom: 25%;
     border-radius: 8px 8px 0 0;
@@ -60,6 +69,7 @@ html {
 
   .index-card p {
     padding: 1rem;
+    color: #696969;
   }
   
   /* STYLES */

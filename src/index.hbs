@@ -8,13 +8,13 @@
 
         <article class="index-cards">
             {{#each collections.recipes}}
-                <article class="index-card">
-                    <a href="{{ this.url }}" class="index-image" style="background-image: url({{this.data.cover-image}});">
+                <a class="index-card" href="{{ this.url }}">
+                    <h2 class="index-image" style="background-image: url({{this.data.cover-image}});">
                         {{ this.data.title }}
-                    </a>
+                    </h2>
                     {{{ content }}}
                     {{myshortcode}}
-                </article>
+                </a>
             {{/each}}
         <article>
 
