@@ -61,7 +61,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    font-size: 4rem;
+    font-size: max(3.5vw, 3rem);
     padding-top: 25%;
     padding-bottom: 25%;
     border-radius: 8px 8px 0 0;
@@ -81,6 +81,7 @@ html {
     margin: 0 auto ;
     background-color: white;
     padding: 3rem;
+    min-height: 100vh;
   }
   
   header {

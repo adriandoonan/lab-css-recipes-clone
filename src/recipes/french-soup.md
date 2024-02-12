@@ -1,6 +1,6 @@
 ---
 layout: layouts/recipe.hbs
-title: French Soup
+title: French Onion Soup
 tags: recipes
 cover-image: /images/french-soup.jpg
 recipe-info-image: /images/french-soup-cooking-info.png
@@ -32,4 +32,4 @@ directions:
         
 ---
 
-French Onion Soup We have been trying French onion soup in restaurants for years and my family and friends agree  none can compare to my recipe for taste and simplicity of preparation.
+We have been trying French onion soup in restaurants for years and my family and friends agree  none can compare to my recipe for taste and simplicity of preparation.
