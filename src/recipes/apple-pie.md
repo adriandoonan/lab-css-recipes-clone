@@ -1,7 +1,7 @@
 ---
 layout: layouts/recipe.hbs
 title: Apple Pie
-tags: pages
+tags: recipes
 cover-image: /images/apple-pie.jpg
 recipe-info-image: /images/apple-pie-cooking-info.png
 cooking-info-image: /images/apple-pie-recipe-info.png

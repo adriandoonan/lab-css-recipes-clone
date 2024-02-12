@@ -4,10 +4,20 @@
 
 <body>
     <main>
-        <h1>Main Page</h1>
+        <h1 class="index-title">My Recipe Book</h1>
 
-        <p>Hi</p>
-        <p>what</p>
+        <article class="index-cards">
+            {{#each collections.recipes}}
+                <article class="index-card">
+                    <a href="{{ this.url }}" class="index-image" style="background-image: url({{this.data.cover-image}});">
+                        {{ this.data.title }}
+                    </a>
+                    {{{ content }}}
+                    {{myshortcode}}
+                </article>
+            {{/each}}
+        <article>
+
     </main>
 
 </body>

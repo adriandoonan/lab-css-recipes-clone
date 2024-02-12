@@ -1,7 +1,7 @@
 ---
 layout: layouts/recipe.hbs
 title: French Soup
-tags: pages
+tags: recipes
 cover-image: /images/french-soup.jpg
 recipe-info-image: /images/french-soup-cooking-info.png
 cooking-info-image: /images/french-soup-recipe-info.png
