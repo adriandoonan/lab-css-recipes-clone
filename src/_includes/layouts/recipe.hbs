@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{> head }}
+
+  <body>
+
+    <header>
+      <h1 class="recipe-hero-image" style="background-image: url('{{cover-image}}');">{{title}}</h1>
+    </header>
+
+    <main>
+
+      <section id="intro">
+
+          {{{ content  }}}
+
+        <img class="info-image" alt="clock" src="{{recipe-info-image}}" />
+      </section>
+      
+      <section id="ingredients">
+        <h2>Ingredients</h2>
+        
+        <ul class="list" id="list-ingredients">
+
+          {{#each ingredients}}
+            <li>{{ this }}</li>
+          {{/each}}
+        </ul>
+
+        <img class="info-image" alt="cooking info" src="{{cooking-info-image}}" />
+      </section>
+  
+      <section id="directions">
+        <h2>Directions</h2>
+
+        <ol class="list" id="list-directions">
+          {{#each directions}}
+            <li>{{ this }}</li>
+          {{/each}}
+        </ol>
+
+      </section>
+
+    </main>
+
+  </body>
+
+</html>
