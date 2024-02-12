@@ -70,6 +70,7 @@ html {
   .index-card p {
     padding: 1rem;
     color: #696969;
+    margin-bottom: auto;
   }
   
   /* STYLES */
